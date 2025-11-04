@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
+     <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div class="main">
+        <!-- side bar  -->
+        <div class="left_bar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="assets/library_icon.png" style="height: 1.25rem; width:1.25rem;">
+                        <a href="#"> Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="boxes" style="padding: 0px 8px 8px;">  
+                    <div class="box">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy, we'll help you</p>
+                        <button><b>Create playlist</b></button>
+                    </div>
+                    <div class="box">
+                        <p class="p1">Let's find some podcasts to follow</p>
+                        <p class="p2">we'll keep you updated on new episodes</p>
+                        <button><b>Browse podcasts</b></button>
+                    </div>
+                </div>
+                <div class="box4">
+                    <div class="box3">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety & Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="right_bar">
+            <!-- navigation bar  -->
+            <div class="sticky_nav">
+                <div class="nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="nav-sticky-nav">
+                    <button class="hide">Explore Premium</button>
+                    <button class="dark-badge"><i class="fa-solid fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <!-- cards -->
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+            </div>
+
+            <h2>Featured charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played...</div>
+                </div>
+            </div>
+            <br><br><br>
+            <!-- line -->
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+            <div class="extra">
+                <div class="extra-box">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">For the Record</a>
+                </div>
+                <div class="extra-box">
+                    <h4>Communities</h4>
+                    <a href="#">For Artists</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Vendors</a>
+                </div>
+                <div class="extra-box">
+                    <h4>Useful links</h4>
+                    <a href="#">Supports</a>
+                    <a href="#">Free Mobile App</a>
+                    <a href="#">Popular by Country</a>
+                    <a href="#">Import yor music</a>
+                </div>
+                <div class="extra-box">
+                    <h4>Spotify Plans</h4>
+                    <a href="#">Premium Individual</a>
+                    <a href="#">Premium Duo</a>
+                    <a href="#">Premium Family</a>
+                    <a href="#">Premium Student</a>
+                    <a href="#">Spotify Free</a>
+                </div>
+                <div class="social-media">
+                    <div class="sm-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="sm-icon"><i class="fab fa-twitter"></i></div>
+                    <div class="sm-icon"><i class="fab fa-facebook"></i></div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+            <div class="copyright">
+                <p>© 2025 Spotify AB</p>
+            </div>
+            
+            <div class="footer"></div>
+        </div>
+
+        <!-- bottom music player -->
+        <div class="music_player">
+            <div class="album">
+                <img src="./assets/card2img.jpeg" class="footer-img">
+                <div class="words">
+                    <a>Daylight</a>
+                    <a class="content2">David Kushner</a>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-window-maximize"></i>
+            </div>
+            <div class="music-bar">
+                <div class="play-icons">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1;height:2rem">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="play-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">4:53</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="icons">
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-solid fa-book"></i>
+                    <i class="fa-solid fa-computer"></i>
+                    <i class="fa-solid fa-volume-low"></i>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
